@@ -24,3 +24,4 @@ define (__NAMESPACE__ . '\PLUGIN_FILE', __FILE__);
 
 
 require_once (PLUGIN_DIR . '/includes/media-fields.php');
+require_once (PLUGIN_DIR . '/includes/rest-media.php');
