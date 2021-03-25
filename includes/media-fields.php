@@ -47,7 +47,7 @@ function add_attachment_pre_approval_checkbox ( $form_fields, $post ) {
 
     return $form_fields;
 }
-add_filter( 'attachment_fields_to_edit', __NAMESPACE__ . '\add_attachment_pre_approval_checkbox', 10, 2 );
+add_filter( 'attachment_fields_to_edit', __NAMESPACE__ . '\add_attachment_pre_approval_checkbox', 5, 2 );
 
 /**
  * Save the pre-approval field to the taxonomy
